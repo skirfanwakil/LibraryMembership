@@ -1,1 +1,10 @@
+# Visual Studio dynamic folders
+.vs/
+bin/
+obj/
 
+# User-specific config
+*.csproj.user
+
+# Local environment/packages
+packages/
