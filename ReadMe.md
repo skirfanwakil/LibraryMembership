@@ -1,21 +1,22 @@
 # Library Membership Management System
 
-A web-based Library Membership Management System developed using **ASP.NET Web Forms** and **MySQL**.
+A web-based Library Membership Management System developed using **ASP.NET Web Forms, C#, and MySQL**.
 
 ## 📌 Project Overview
 
-This project is designed to manage library membership records digitally. It provides a simple interface for adding members, viewing membership records, deleting records, and verifying membership details.
+The Library Membership Management System is designed to digitally manage basic library membership records through an administrator interface.
+
+The system provides functionality for adding, verifying, and deleting member records.
 
 ## 🚀 Features
 
-- 🔐 Library Membership Management
-- ➕ Add New Member
-- 📋 View Member Dashboard
-- 🔍 Verify Membership
+- 🔐 Admin Login
+- ➕ Add New Members
+- 🔍 Verify Members
 - 🗑️ Delete Member Records
 - 🗄️ MySQL Database Integration
 - 🌐 ASP.NET Web Forms
-- ⚙️ Web.config Database Configuration
+- ⚙️ C# Backend Logic
 
 ## 🛠️ Technologies Used
 
@@ -30,25 +31,25 @@ This project is designed to manage library membership records digitally. It prov
 ```text
 Library-Membership/
 │
-├── Add.aspx
-├── Add.aspx.cs
-├── Add.aspx.designer.cs
+├── index.aspx
+├── index.aspx.cs
+├── index.aspx.designer.cs
 │
 ├── Dashboard.aspx
 ├── Dashboard.aspx.cs
 ├── Dashboard.aspx.designer.cs
 │
-├── Delete.aspx
-├── Delete.aspx.cs
-├── Delete.aspx.designer.cs
+├── Add.aspx
+├── Add.aspx.cs
+├── Add.aspx.designer.cs
 │
 ├── Verify.aspx
 ├── Verify.aspx.cs
 ├── Verify.aspx.designer.cs
 │
-├── index.aspx
-├── index.aspx.cs
-├── index.aspx.designer.cs
+├── Delete.aspx
+├── Delete.aspx.cs
+├── Delete.aspx.designer.cs
 │
 ├── LibraryDB.sql
 ├── Membership.csproj
