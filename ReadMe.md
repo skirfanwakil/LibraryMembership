@@ -6,7 +6,7 @@ A web-based Library Membership Management System developed using **ASP.NET Web F
 
 The Library Membership Management System is designed to digitally manage basic library membership records through an administrator interface.
 
-The system provides functionality for adding, verifying, and deleting member records.
+The system provides functionality for **adding, verifying, and deleting member records**.
 
 ## 🚀 Features
 
@@ -26,9 +26,9 @@ The system provides functionality for adding, verifying, and deleting member rec
 - **Framework:** .NET Framework
 - **IDE:** Microsoft Visual Studio
 
+## 🔄 Application Workflow
 
-## Workflow 
-'''text
+```text
 Library Membership Management System
 │
 └── Admin Login
