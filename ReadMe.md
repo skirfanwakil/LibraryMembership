@@ -26,13 +26,36 @@ The system provides functionality for adding, verifying, and deleting member rec
 - **Framework:** .NET Framework
 - **IDE:** Microsoft Visual Studio
 
-## Workflow 
-Admin Login
-     ↓
-Dashboard
-  ↙   ↓   ↘
-Add  Verify  Delete
 
+## Workflow 
+'''text
+Library Membership Management System
+│
+└── Admin Login
+      │
+      ├── Invalid Credentials
+      │       └── Error Message
+      │
+      └── Successful Login
+              │
+              ▼
+          Dashboard
+              │
+              ├── Add Member
+              │      ├── Enter Name
+              │      ├── Enter Email
+              │      ├── Enter Class
+              │      └── Save to MySQL Database
+              │
+              ├── Verify Member
+              │      ├── Enter Email
+              │      ├── Search Database
+              │      └── Display Member Details
+              │
+              └── Delete Member
+                     ├── Enter Email
+                     ├── Search Database
+                     └── Delete Member Record
 
 ## 📂 Project Structure
 
